@@ -122,8 +122,31 @@ footer h1{
 }
 
 @media  (max-width: 375px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+    }
+    #foto img{
+        width: 50%;
+    }
+
+    #foto p{
+        font-size: 20px;
+        
+    }
+    
+    
+
+
+    ul li a{
+        padding: 1px 144px;
+    }
+
+
     #icons{
-       margin-top: 40px;
+       margin-top: 60px;
         
         }
 }
